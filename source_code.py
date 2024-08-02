@@ -14,7 +14,7 @@ def submit_details():
         return
 
     # Display the entered details 
-    label_display.config(text=f"Document Number: {doc_num} | Document Name: {doc_name} | Document Date: {doc_date} | Document Path: {doc_path}")
+    label_display.config(text=f"Document Number: {doc_num} \n Document Name: {doc_name} \n Document Date: {doc_date} \n Document Path: {doc_path}")
 
 def browse_file():
     file_path = filedialog.askopenfilename(filetypes=[("All files", "*.*")])
