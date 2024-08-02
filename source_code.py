@@ -24,7 +24,7 @@ def browse_file():
 def open_file():
     file_path = entry_doc_path.get()
     if os.path.exists(file_path):
-        os.startfile(file_path)  # This will open the file with the default application
+        os.startfile(file_path)  # This will open the file with the default application (file manager)
 
 def on_enter_key(event):
     submit_details()
