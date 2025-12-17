@@ -1,0 +1,3 @@
+This code creates a **simple graphical user interface (GUI)** using Python’s **Tkinter** library to collect and manage basic document details.
+
+The application allows the user to enter a document number, document name, select a document date using a calendar widget, and choose a document file from the system using a file browser. It validates whether the selected file path exists, displays the entered details on the screen, and provides an option to open the selected document using the system’s default application. The Enter key is also bound to submit the form, making the interface easier to use.
